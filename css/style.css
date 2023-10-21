@@ -90,8 +90,7 @@ ol {
 
 .nav-links-head {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #404bbf;
-  /*color: #2e2f42;*/
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -100,10 +99,13 @@ ol {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: flex;
+}
+.nav-links-head:first-child {
+  color: #404bbf;
   position: relative;
 }
 
-.nav-links-head::after {
+.nav-links-head:first-child::after {
   content: "";
   color: #404bbf;
   position: absolute;
@@ -146,6 +148,9 @@ ol {
   letter-spacing: 0.02em;
 }
 .adrs-head-list:first-child .adrs-head {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.adrs-head-list:nth-child(2) .adrs-head {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
