@@ -376,6 +376,37 @@ ol {
   margin-bottom: 8px;
 }
 
+.icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.our-team-soc-icon-list {
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+.our-team-soc-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.our-team-soc-link:hover,
+.our-team-soc-link:focus {
+  background-color: #404bbf;
+}
+.soc-icon {
+  fill: #f4f4fd;
+}
+
+.our-team-soc-icon-list:first-child .our-team-soc-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /**============================**/
 
 /**============== OUR PORTFOLIO ==============**/
@@ -559,33 +590,3 @@ ol {
 }
 
 /**============================**/
-.icon-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-.our-team-soc-icon-list {
-  display: flex;
-  width: 40px;
-  height: 40px;
-}
-.our-team-soc-link {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #4d5ae5;
-}
-.our-team-soc-link:hover,
-.our-team-soc-link:focus {
-  background-color: #404bbf;
-}
-.soc-icon {
-  fill: #f4f4fd;
-}
-
-.our-team-soc-icon-list:first-child .our-team-soc-link {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
