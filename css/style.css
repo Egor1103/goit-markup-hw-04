@@ -115,6 +115,9 @@ ol {
 .nav-links-head:first-child {
   position: relative;
 }
+.nav-list-head-container > .nav-list-header:first-child .nav-links-head {
+  color: #404bbf;
+}
 .nav-links-head:hover,
 .nav-links-head:focus {
   color: #404bbf;
