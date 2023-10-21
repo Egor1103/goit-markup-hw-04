@@ -175,6 +175,10 @@ ol {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
+}
+.solutions img {
+  width: 100%;
 }
 .solutions-container {
   display: grid;
@@ -444,6 +448,9 @@ ol {
 
 /**============================**/
 .icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .our-team-soc-icon-list {
   display: flex;
